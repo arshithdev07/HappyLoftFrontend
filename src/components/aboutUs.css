@@ -1,0 +1,51 @@
+.about-us-section {
+    overflow-y: scroll;
+    position: relative;
+    height: 100%;
+}
+
+.about-us-container {
+    background-color: white;
+}
+
+.img-mascot {
+    width: 7%;
+    margin-left: 33%;
+}
+
+.row {
+    padding: 36px 24px;
+}
+
+.about-us {
+    margin-top: 3%;
+}
+
+.about-desc-container {
+    background-color: white;
+    width: 80%;
+    /* max-width: 960px; */
+    padding: 0 2rem;
+    margin: 32px auto;
+    text-align: left;
+}
+
+.about-heading {
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+.about-content {
+    margin-top: 1%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+    .img-mascot {
+        width: 20%;
+        margin-left: 15%;
+    }
+
+    .about-heading {
+        margin-left: 20%;
+    }
+}
